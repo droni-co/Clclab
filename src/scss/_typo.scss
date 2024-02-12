@@ -1,0 +1,64 @@
+@import 'variables';
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,500&family=Inter:wght@400;500;600;700&display=swap');
+
+/* Use Fonts 
+font-family: 'Inter', sans-serif;
+font-family: 'DM Mono', monospace;
+*/
+
+/* Links */
+a {
+  color: $color-link;
+  text-decoration: none;
+  &:hover {
+    color: $color-link-hover;
+  }
+  &:active {
+    color: $color-link-active;
+  }
+  &:visited {
+    color: $color-link-visited;
+  }
+}
+
+.cl-font-mono {
+  font-family: 'DM Mono', monospace !important;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+h1, h2, h3, h4, h5, p {
+  text-wrap: balance;
+  margin: 0;
+  padding: 0;
+}
+/* Headings */
+h1.cl-display {
+  font: 700 45px/88px Inter;
+  letter-spacing: -.5px;
+}
+h1 {
+  font: 700 35px/48px Inter;
+  letter-spacing: 1px;
+}
+h2 {
+  font: 500 31px/48px Inter;
+  letter-spacing: -.5px;
+}
+h3 {
+  font: 500 25px/40px Inter;
+  letter-spacing: -.5px;
+}
+h4 {
+  font: 500 20px/32px Inter;
+  letter-spacing: -.5px;
+}
+h5 {
+  font: 500 16px/24px Inter;
+  letter-spacing: -.5px;
+}
+p {
+  font: 400 16px/24px Inter;
+}

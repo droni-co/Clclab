@@ -1,0 +1,38 @@
+/* Colors */
+$color-title: #15192c;
+$color-text: #263238;
+$color-secondary: #263238;
+$color-white: #ffffff;
+$color-primary: #d74028;
+$color-disabled: #7a92a1;
+$color-success: #188737;
+$color-warning: #d68502;
+$color-danger: #be1b20;
+$color-link: #0d4ed0;
+$color-link-hover: #4c91f7;
+$color-link-active: #103981;
+$color-link-visited: #2f71e5;
+
+$screen-sm-min: 576px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 768px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 992px;
+$screen-md-max: ($screen-lg-min - 1);
+$screen-xl-min: 1200px;
+$screen-lg-max: ($screen-xl-min - 1);
+$screen-2xl-min: 1400px;
+$screen-xl-max: ($screen-2xl-min - 1);
+
+/*
+@media (max-width: $screen-xs-max) { ... }
+@media (min-width: $screen-sm-min) { ... }
+@media (max-width: $screen-sm-max) { ... }
+@media (min-width: $screen-md-min) { ... }
+@media (max-width: $screen-md-max) { ... }
+@media (min-width: $screen-lg-min) { ... }
+@media (max-width: $screen-lg-max) { ... }
+@media (min-width: $screen-xl-min) { ... }
+@media (max-width: $screen-xl-max) { ... }
+@media (min-width: $screen-2xl-min) { ... }
+*/
